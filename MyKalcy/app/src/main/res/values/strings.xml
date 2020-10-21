@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyKalcy</string>
+    <string name="clear">C</string>
+    <string name="backspace">⌫</string>
+    <string name="divide">÷</string>
+    <string name="sqrt">√</string>
+    <string name="cuberoot">\u221B</string>
+    <string name="square">x²</string>
+    <string name="cube">x\u00B3</string>
+    <string name="tenpow">10\u207F</string>
+    <string name="sininv">sin\u207B\u00B9</string>
+    <string name="cosinv">cos\u207B\u00B9</string>
+    <string name="taninv">tan\u207B\u00B9</string>
+    <string name="sinhinv">sinh\u207B\u00B9</string>
+    <string name="coshinv">cosh\u207B\u00B9</string>
+    <string name="tanhinv">tanh\u207B\u00B9</string>
+    <string name="xinv">x\u207B\u00B9</string>
+    <string name="nrootx">n√x</string>
+    <string name="posneg">±</string>
+    <string name="arrow">↑</string>
+    <string name="xpown">xⁿ</string>
+    <string name="epown">eⁿ</string>
+    <string name="pi">π</string>
+</resources>
