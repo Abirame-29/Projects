@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StandardCalculatorActivity">
+
+    <include layout="@layout/content_main" />
+
+
+    <LinearLayout
+        android:id="@+id/drawer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="right"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/inverse"
+                    style="@style/MyButton"
+                    android:text="INV" />
+
+                <Button
+                    android:id="@+id/deg_rad"
+                    style="@style/MyButton"
+                    android:text="DEG" />
+
+                <Button
+                    android:id="@+id/constant"
+                    style="@style/MyButton"
+                    android:text="CONST" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/sin"
+                    style="@style/MyButton"
+                    android:text="sin" />
+
+                <Button
+                    android:id="@+id/cos"
+                    style="@style/MyButton"
+                    android:text="cos" />
+
+                <Button
+                    android:id="@+id/tan"
+                    style="@style/MyButton"
+                    android:text="tan" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/log"
+                    style="@style/MyButton"
+                    android:text="log" />
+
+                <Button
+                    android:id="@+id/ln"
+                    style="@style/MyButton"
+                    android:text="ln" />
+
+                <Button
+                    android:id="@+id/hyp"
+                    style="@style/MyButton"
+                    android:text="hyp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/square"
+                    style="@style/MyButton"
+                    android:text="@string/square" />
+
+                <Button
+                    android:id="@+id/root"
+                    style="@style/MyButton"
+                    android:text="√" />
+
+                <Button
+                    android:id="@+id/factorial"
+                    style="@style/MyButton"
+                    android:text="x!" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/power"
+                    style="@style/MyButton"
+                    android:text="^" />
+
+                <Button
+                    android:id="@+id/fraction"
+                    style="@style/MyButton"
+                    android:text="a/b" />
+
+                <Button
+                    android:id="@+id/permutation"
+                    style="@style/MyButton"
+                    android:text="nPr" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"></LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v4.widget.DrawerLayout>
